@@ -14,8 +14,11 @@
 ## Additional
 
 docker container ls
+
 docker exec -it 2a6b98138aaa bash
+
 ls /var/opt/mssql/data
+
 docker exec -it 2a6b98138aaa ls /var/opt/mssql/data
 
 https://nozzlegear.com/blog/backing-up-a-docker-sql-server-database-instance
