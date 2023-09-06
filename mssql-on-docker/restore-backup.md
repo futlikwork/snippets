@@ -6,7 +6,7 @@
 
 ## Copy backup to container
 
-`docker cp ./ACTIVE_v1-DailyBackup.bak 2a6b98138aaa:/var/opt/mssql/data/ACTIVE_v1-DailyBackup.bak`
+`docker cp /home/user1/ACTIVE_v1-DailyBackup.bak 2a6b98138aaa:/var/opt/mssql/data/ACTIVE_v1-DailyBackup.bak`
 
 ## Restore backup by Azure Data Studio
 
