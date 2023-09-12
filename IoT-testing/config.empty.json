@@ -1,0 +1,40 @@
+{
+  "subject": "ServerInitMasterData",
+  "payload": {
+    "serverConfig": {
+      "port": 6001
+    },
+    "customDataTypes": [
+      {
+        "browseName": "typePrepareEquipmentParameterDataType",
+        "description": "random text",
+        "structureDefinition": {
+          "fields": [
+            {
+              "name": "param1",
+              "dataType": "Int16",
+              "valueRank": "Scalar",
+              "arrayDimensions": null,
+              "isOptional": false
+            },
+            {
+              "name": "param2",
+              "dataType": "Int32",
+              "valueRank": "Scalar",
+              "arrayDimensions": null,
+              "isOptional": false
+            },
+            {
+              "name": "param3",
+              "dataType": "Int32",
+              "valueRank": "Scalar",
+              "arrayDimensions": null,
+              "isOptional": false
+            }
+          ]
+        }
+      }
+    ],
+    "masterData": {}
+  }
+}
