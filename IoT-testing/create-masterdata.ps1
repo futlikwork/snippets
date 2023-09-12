@@ -4,10 +4,10 @@ Write-Output "Union json files"
 
 
 $pathToMasterData = 'C:\Work\BBRAUNATO\BBRAUNACTIVE2022\Features\Cmf.Custom.ACTIVE\Cmf.Custom.ACTIVE.IoT\IoTData\MasterData\ToPack'
-$resultFileName = 'output/masterdata.json'
+$resultFileName = 'output/result.masterdata.json'
 
 $vfInConfigFile = 'config.empty.json'
-$vfOutConfigFile = 'output/config.json'
+$vfOutConfigFile = 'output/result.config.json'
 
 
 $files = Get-ChildItem -Path $pathToMasterData -File | Sort-Object -Property Name | Select-Object FullName
